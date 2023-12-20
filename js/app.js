@@ -26,7 +26,7 @@ function addFriend() {
 }
 
 function draw() {
-    if (friends.length >= 3) {
+    if (friends.length <= 3) {
         alert('Add at least 3 friends!');
         return;
     }
